@@ -1,8 +1,9 @@
-const userAge = prompt("Enter your age:");
-const age = Number(userAge);
-
-if (age >= 18) {
-    console.log("You are eligible to vote.");
+const num1 = Number(prompt("Enter the first number:"));
+const num2 = Number(prompt("Enter the second number:"));
+if (num1 > num2) {
+    console.log(`The larger number is: ${num1}`);
+} else if (num2 > num1) {
+    console.log(`The larger number is: ${num2}`);
 } else {
-    console.log("You are not eligible to vote.");
+    console.log("Both numbers are equal.");
 }
